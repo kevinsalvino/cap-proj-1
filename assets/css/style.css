@@ -954,7 +954,7 @@ body {
 		color: #4ABDAC;
 		position: fixed;
 		top: 570px;
-		right: 505px;
+		right: 390px;
 		text-transform: uppercase;
 		font-family: 'Fjalla One', sans-serif;
 		font-size: 40px;
@@ -1260,15 +1260,13 @@ body {
 	/* D - About */
 	#about-bg1 {
 		background-image: url("../img/abt1.jpg");
-		height: 550px;
+		height: 750px;
 		width: 100%;
 		background-attachment: fixed;
 		background-position: center;
 	    background-repeat: no-repeat;
 		background-size: cover;
 	}
-
-	
 
 	#abt-head {
 		text-align: center;
@@ -1335,9 +1333,61 @@ body {
 		color: black;
 	}
 
-	div > p.about-desc {
-		color: yellow;
+	/* d - abt - row1 */
+	#about-bg2 {
+		background-image: url("../img/test.jpg");
+		width: 100%;
+		background-attachment: fixed;
+		background-position: center;
+	    background-repeat: no-repeat;
+		background-size: cover;
+		height: 470px;
+		text-shadow: 0px 0px 10px black,
+					0px 0px 20px black,
+					0px 0px 30px black,
+					0px 0px 40px black,
+					0px 0px 50px black,
+					0px 0px 60px black;
 	}
+
+	#about-bg2 > .brand-desc {
+		color: #DFDCE3;
+		font-family: 'Cabin Sketch', cursive;
+		font-size: 35px;
+		padding: 10px 30px;
+		font-style: italic;
+		background-color: #DFDCE3;
+		width: 800px;
+		height: 100%;
+		position: relative;
+		left: 120px;
+		text-align: center;
+		border: 5px solid #4ABDAC;
+		border-radius: 50px;
+	}
+	 /*d - /abt - row1 */
+
+
+	/* d - abt - row 2 */
+	#about-bg3 {
+		background-image: url("../img/com.jpg");
+		height: 550px;
+		width: 100%;
+		/*background-attachment: fixed;*/
+		background-position: center;
+	    background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	fieldset {
+		width: 400px;
+		height: 400px;
+		padding-top: 50px;
+		background-color: salmon;
+
+	}
+	/* d - /abt - row 2 */
+
 	/* D - /About */
 
 	/* d - footer */
